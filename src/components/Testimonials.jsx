@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <div id="testimonials" className="w-full h-3/4">
       <div className="flex flex-col  p-10">
-        <h1 className="text-4xl  md:text-5xl bg-clip-text font-bold tracking-tighter mt-20">
+        <h1 className="text-4xl  md:text-5xl bg-clip-text font-bold tracking-tighter mt-18">
           Testimonials
         </h1>
         <p className=" text-xl md:text-2xl m-5 text-[#6499E9] my-5">

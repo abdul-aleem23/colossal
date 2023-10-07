@@ -27,9 +27,9 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center h-24 max-w-full mx-auto px-4 text-black bg-white">
-      <div>
-        <h1 className="w-full text-3xl font-bold text-[#6499E9]">COLOSSAL</h1>
-        <p className="w-full font-bold text-[#6499E9]">COMMUNICATIONS</p>
+      <div className="flex flex-col justify-center items-center h-full">
+        <h1 className="text-4xl md:text-4xl font-bold text-black font-[Micaroline]">COLOSSAL</h1>
+        <p className="text-sm md:text-sm font-bold text-gradient-to-r">COMMUNICATIONS</p>
       </div>
       <ul className="hidden md:flex">
         <li className="p-4 hover:cursor-pointer">Home</li>
@@ -70,8 +70,9 @@ const Navbar = () => {
             : "fixed left-[-100%] z-0"
         }
       >
-        <div className="m-2">
-          <h1 className="w-full text-3xl font-bold text-[#6499E9]">COLOSSAL</h1>
+        <div className="flex flex-col justify-center items-center m-2 mt-4">
+          <h1 className="text-3xl text-black font-[Micaroline]">COLOSSAL</h1>
+          <p className="text-sm font-bold text-gradient-to-r">COMMUNICATIONS</p>
         </div>
         <ul className="uppercase p-4">
           <li className="p-4 border-b border-gray-600 hover:cursor-pointer">

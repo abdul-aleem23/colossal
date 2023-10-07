@@ -24,6 +24,18 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Micaroline';
+  src: url('./assets/fonts/micaroline-regular.otf');
+}
+
+@layer utilities {
+  .text-gradient-to-r {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #01BBC7, #00379B);
+  }
+}
 .feature-card:hover {
   background: var(--blue-tinted-gradient);
   box-shadow: var(--card-shadow);

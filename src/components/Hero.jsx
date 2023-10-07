@@ -1,6 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import treeSky from "../assets/tree-sky.jpg";
 import Services from "./Services.jsx";
+import mouse from "../assets/mouse-scroll.svg";
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -14,9 +15,9 @@ const Hero = () => {
     <div className="text-white w-full relative mt-24 z-2">
       <img
         src={treeSky}
-        className="w-full h-4/5 object-cover absolute mix-blend-overlay z-0"
+        className="w-full h-3/4 object-cover absolute mix-blend-overlay z-0 blur-sm"
       />
-      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center items-center z-10">
+      <div className="max-w-[800px] mt-[-96px] w-full h-[800px] mx-auto text-center flex flex-col justify-center items-center z-10">
         <p className="bg-black text-[white] font-bold p-2 w-[300px]">
           We are Colossal Communications
         </p>
@@ -47,6 +48,10 @@ const Hero = () => {
         >
           Learn more
         </button>
+      </div>
+      <div className="flex flex-row justify-center items-center my-5">
+        <img src={mouse} className="w-[35px]" />
+        <p className="text-black z-50">Scroll to see more sections</p>
       </div>
     </div>
   );
